@@ -1,0 +1,530 @@
+/*
++    App-specific LESS/CSS would go here, but to make your
++    application easier to maintain, you should try to
++    minimize the use of custom CSS.
++*/
+body {
+    font-family: @mainFont !important;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border:1px solid black;
+}
+.main-view .mapview .map-area .map {
+    height: 100%;
+    width: 100%;
+    margin: 10px auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.toolbarNavButton {
+    width: 20%;
+    text-align: center;
+    background-color: #F8F8F8;
+    padding-top: 10px;
+}
+.clstoolbar {
+    height: 60px;
+    vertical-align: middle;
+}
+.toolbarIcons {
+    color: #919191;
+    font-size: 22px;
+}
+.activeToolbarIcons > * {
+    color: #0096d6 !important;
+    font-size: 22px;
+}
+.moreIcon {
+    color: #919191;
+    font-size: 8px;
+}
+.toolbarText {
+    font-size: 11px;
+    color: #919191;
+}
+.auth-dialog {
+    width: 100%;
+    height: 100%;
+    background: white;
+    box-shadow: none; 
+    border: none; 
+    border-radius: 0px; 
+    padding: 0px;
+}
+.short-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.long-text {
+    overflow: hidden;
+}
+.auth-panel {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+/*More View*/
+
+.moreView {
+    //padding: 10px;
+
+}
+.moreOption {
+    height: 45px;
+    border-bottom: 1px solid #BEBEBE;
+    padding: 0 10px;
+    /*line-height: 45px;*/
+}
+.moreOptionTitle {
+    line-height: 45px;
+    vertical-align: middle;
+    color: #0096d6;
+}
+.moreOptionIcon {
+    display: inline-block;
+    line-height: 45px !important;
+    vertical-align: middle;
+    float: right;
+    color: #0096d6;
+}
+.poweredByContainer {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    color: #919191;
+}
+.ciscoImage {
+    height: 55px;
+}
+/*Geo Location Offer*/
+
+.geoLocOfferAndPromotion {
+    width: 100%;
+    text-align: center;
+}
+.geoLocOfferHeader {
+    height: 48px;
+    /*line-height: 40px;*/
+    background-color: #0096d6;
+    color: #FFF;
+    font-weight: bold;
+}
+.geoLocOfferContent {
+    padding: 10px;
+    background-color: #003D54;
+}
+.geoLocOfferQRCode {
+    width: 100px;
+    height: 90px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.geoLocOfferMessage {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+}
+.geoLocOfferDesc {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.geoLocOfferButton {
+    background: none;
+    background-color: #0096d6;
+    color: #FFF;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.geoLocOfferCrowdLevel {
+    text-align: center;
+    color: #FFF;
+}
+.crowdLevelContent {
+    font-size: 11px;
+    padding-right: 10px;
+}
+.levelText {
+    color: #FFF;
+    height: 20px !important;
+    line-height: 20px;
+    vertical-align: middle;
+    width: 55px;
+    font-size: 10px;
+    text-align: center;
+}
+.cityHeroImage {
+    height: 60%;
+    background-color: #BBBDBF;
+    color: #F1F1F2;
+    text-align: center;
+    background-image: url(../../assets/chicago.jpg);
+    backgrouund-possition: center;
+}
+/*Featured Tour*/
+
+.featuredTour {
+    width: 100%;
+    height: 100px;
+    line-height: 33px;
+    text-align: center;
+    border: 1px solid #DBDBDC;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.nearByTour {
+    width: 100%;
+    height: 100px;
+    line-height: 33px;
+    text-align: center;
+    border: 1px solid #DBDBDC;
+    margin-bottom: 5px;
+}
+.featuredEvent {
+    width: 50%;
+    height: 100px !important;
+    line-height: 33px;
+    text-align: center;
+    border: 1px solid #9FA1A4;
+    margin-bottom: 5px;
+    margin-right: 1px;
+}
+.featuredOffer {
+    width: 50%;
+    height: 100px !important;
+    line-height: 33px;
+    text-align: center;
+    border: 1px solid #9FA1A4;
+    margin-bottom: 5px;
+}
+.tourStar {
+    color: #919191;
+}
+.amobee-ad {
+    height: 100%;
+    width: 100%;
+}
+.amobee-ad-container {
+    height: 100%;
+    width: 100%;
+}
+.indicator-bar {
+    margin: 5px 10px 10px 10px;
+    height: 14px;
+}
+// These styles are used in multiple views
+// styles for back button
+.navBack {
+    margin-right: 10px;
+    color: #0096d6;
+    // padding-left: 5px;
+
+}
+.topNavBar {
+    background: #f4f4f4;
+    // padding:5px;
+
+}
+.eventDetailTitle {
+    margin: 0px;
+    font-size: 100%;
+    color: #000;
+    font-family: "";
+}
+.itemsDetailNavBar {
+    //padding: 10px 5px 5px 5px;
+    //height: 44px;
+}
+.crowdLevelLabel {
+    display: inline;
+    font-size: 80%;
+    margin: 2px 10px;
+    height: 16px;
+}
+.leaflet-control-attribution {
+    display: none;
+}
+// home view
+.home-view {
+    height: 100%;
+    width: 100%;
+}
+
+.home-menu {
+    margin: 0px 20px;
+}
+
+.home-nav-row {
+    height:48px;
+    width: 100%;
+    background:rgba(0,0,0,.8);
+    color:#fff;
+    font-size: 0.9em;
+    padding: 0px 6px;   
+}
+
+.home-nav-button {
+    height: 100%;
+    width: 66px;
+    padding: 2px;
+    text-align: center;
+}
+
+.home-nav-webfont-icon {
+    font-size: 24px;
+    line-height: 50px!important;
+}
+
+.home-nav-text {
+    line-height: 45px;    
+}
+
+// nav bar styles
+.nav-header {
+    width: 100%;
+    height: 38px;
+    padding: 4px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.nav-icon-area {
+    width: 32px;
+    text-align: center;
+}
+
+.nav-icon {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;    
+}
+
+.nav-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.6;
+    color: white;
+    text-shadow: 0px 0px 6px black;
+}
+
+.nav-title-small-text {
+    font-size: 14px;
+    line-height: 1;
+    white-space: normal;
+}
+
+// main menu
+.main-menu-main-filler {
+    height: 120px;
+    width: 100%;
+}
+
+.main-menu-main-row {
+    height: 44px;
+    width: 100%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #4ab7e3;
+    background-color: black;
+    opacity: 0.75;
+    border-radius: 20px;
+}
+
+.main-screen-top-area {
+    height: 100%;
+    width: 100%;
+}
+
+.main-menu-featured-row {
+    width: 100%;
+}
+
+
+.main-menu-featured-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(assets/feature.png);    
+}
+
+.main-menu-button {
+    height: 100%;
+    width: 20%;
+    padding: 2px;
+    text-align: center;    
+}
+
+.main-menu-icon {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    line-height: 1.4!important;
+    // text-shadow: 1px 2px 6px black;
+}
+
+// main toolbar styles
+
+.main-toolbar {
+    height: 200px;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.main-toolbar-shadow {
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);    
+}
+
+.main-toolbar-button-col1 {
+    height: 100%;    
+    width: 40px;
+}
+
+.main-toolbar-button-col1.hidden {
+    width: 0px;
+    overflow: hidden;
+}
+
+.main-toolbar-button-col1 {
+    height: 100%;    
+    width: 40px;
+}
+
+.main-toolbar-button-col2-normal {
+    height: 100%;    
+    width: 96px;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+
+.main-toolbar-button-col2-small {
+    height: 100%;    
+    width: 6px;
+    font-size: 0;
+}
+
+.main-toolbar-button-col3 {
+    height: 100%;    
+    width: 70px;
+}
+
+.main-toolbar-check {
+    height: 40px;
+    width: 100%;
+    font-size: 2.5em;
+    line-height: 1.1 !important;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.main-toolbar-button {
+    height: 40px;
+    width: 100%;
+    font-size: 2.5em;
+    line-height: 1.1 !important;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-toolbar-button-blue {
+    height: 40px;
+    width: 100%;
+    font-size: 2.5em;
+    line-height: 1.1 !important;
+    text-align: center;
+
+    &:nth-of-type(1){
+        background-color: @deviceMenuIconBGColor;
+    }
+    &:nth-of-type(2){
+        background-color: darken(@deviceMenuIconBGColor, 5%);
+    }
+    &:nth-of-type(3){
+        background-color: darken(@deviceMenuIconBGColor, 10%);
+    }
+    &:nth-of-type(4){
+        background-color: darken(@deviceMenuIconBGColor, 15%);
+    }
+    &:nth-of-type(5){
+        background-color: darken(@deviceMenuIconBGColor, 20%);
+    }
+}
+
+.main-toolbar-text-item {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 2.4;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: @deviceMenuLabelBGColor;
+}
+
+.main-toolbar-text-item-blue {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 2.4;
+    &:nth-of-type(1){
+        background-color: @deviceMenuLabelBGColor;
+    }
+    &:nth-of-type(2){
+        background-color: darken(@deviceMenuLabelBGColor, 5%);
+    }
+    &:nth-of-type(3){
+        background-color: darken(@deviceMenuLabelBGColor, 10%);
+    }
+    &:nth-of-type(4){
+        background-color: darken(@deviceMenuLabelBGColor, 15%);
+    }
+    &:nth-of-type(5){
+        background-color: darken(@deviceMenuLabelBGColor, 20%);
+    }
+}
+.main-toolbar-text-item-hidden {
+    font-size: 0;
+}
+.main-toolbar-nearby {
+    text-transform: uppercase;
+    height: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #0096d6;
+    margin-left: -4px;
+    overflow: hidden;
+}
+.main-toolbar-nearby.inactive {
+    width: 0px;
+}
+
+.main-toolbar-active-text {
+    width: 100%;
+    padding: 4px;
+    font-size: 12px;
+    height: 22px;
+}
+
+.main-toolbar-active-bar {
+    width: 80%;
+    height: 5px;
+    margin: 0 10%;
+}
+
+.main-toolbar-button.active {
+    color: white;
+}
+
+.main-toolbar-button.inactive {
+    color: gray;
+}

@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'icons';
+	src:url('../../assets/fonts/icons.eot?chseam');
+	src:url('../../assets/fonts/icons.eot?#iefixchseam') format('embedded-opentype'),
+		url('../../assets/fonts/icons.woff?chseam') format('woff'),
+		url('../../assets/fonts/icons.ttf?chseam') format('truetype'),
+		url('../../assets/fonts/icons.svg?chseam#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-reset:before {
+	content: "\e60b";
+}
+.icon-kiosk-v2:before {
+	content: "\e608";
+}
+.icon-traffic-v2:before {
+	content: "\e609";
+}
+.icon-parking-taxi:before {
+	content: "\e60a";
+}
+.icon-back:before {
+	content: "\e600";
+}
+.icon-crowds:before {
+	content: "\e601";
+}
+.icon-kiosk:before {
+	content: "\e602";
+}
+.icon-lighting:before {
+	content: "\e603";
+}
+.icon-more:before {
+	content: "\e604";
+}
+.icon-parking:before {
+	content: "\e605";
+}
+.icon-tour:before {
+	content: "\e606";
+}
+.icon-traffic:before {
+	content: "\e607";
+}

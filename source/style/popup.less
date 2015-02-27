@@ -1,0 +1,57 @@
+/**
+*
+*This file is specific to app wide popup styles.
+*
+**/
+
+@import "globalVariables.less";
+
+.popup.kiosk {
+	width: 100%;
+	text-align: center;
+
+	.header {
+		height: 80px;
+		/* line-height: 50px; */
+		background-color: #0096d6;
+		color: #ffffff;
+		font-weight: bold;
+		background-image: url("../../assets/down-arrow.png");
+		background-position: 50% 15px;
+		background-repeat: no-repeat;
+		background-size: 50px;
+
+		h1 {
+			margin: 0;
+			font-size: 1.1em;
+			padding-top: 40px;
+		}
+	}
+	.body {
+		padding: 20px 10px 50px;
+
+		.message {
+			padding:20px 45px;
+			color: @white;
+		}
+
+		.buttonsContainer {
+			margin: 10px 0;
+
+			.button {
+				border: none;
+				background-color: @skyBlue;
+				border-radius: 6px;
+				color: @white;
+				height: 50px;
+				width: 100px;
+				margin: 5px 10px;
+			}	
+		}
+				
+	}
+}
+
+.skyBlue {
+	color: @skyBlue;
+}

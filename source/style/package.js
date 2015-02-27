@@ -1,0 +1,25 @@
+enyo.depends(
+    //"Theme.less",	// To theme Moonstone, uncomment this line, and follow the steps described in Theme.less
+    "application.less",
+    "accessCodeView.less",
+    "loginView.less",
+    "registrationView.less",
+    "featuredView.less",
+    "eventsView.less",
+    "eventDetailsView.less",
+    "offersView.less",
+    "offerDetailsView.less",
+    "tours.less",
+    "popup.less",
+    "mediaQueries.less",
+    "listView.less",
+    "aboutChicago.less",
+    "about.less",
+    "termsAndPrivacy.less",
+    "mapLayers.less",
+    "cityOfficials.less",
+    "cityInformationView.less",
+    "kenburns.less",
+    "icons.css",
+    "secureCode.less"
+);

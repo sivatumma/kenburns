@@ -1,0 +1,10 @@
+enyo.depends(
+  "loggly.js",
+	"data.js",
+  "portal_server.js",
+  "device_models.js",
+	"locale/en_US.js",
+	"locale/dummy_strings.js",
+  "AnalyticsLogger.js",
+  "mapUtils.js"
+);
